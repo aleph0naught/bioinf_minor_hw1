@@ -70,7 +70,7 @@ multiqc отчеты лежат в корне репозитория в файл
 ![](/img/trimmed_readings_quality.png)
 
 
-# Весь код лежит в code_hw1.ipynb
+# Весь код в Jupiter ноутбуке лежит в src/code_hw1.ipynb
 
 # В папке data
 Файл contigs.fasta - все полученные контиги
