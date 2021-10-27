@@ -34,8 +34,7 @@
     ```
 - Собираем multiqc отчет для подрезанных чтений
     ```
-    rm -r
-    ls -1 *.fastq | xargs -tI{}  {}
+    ls -1 *.fastq | xargs -tI{} rm -r {}
     ls *.trimmed | xargs -t -I % fastqc -o fastqc %
     multiqc -o muliqc fastqc
     ```
